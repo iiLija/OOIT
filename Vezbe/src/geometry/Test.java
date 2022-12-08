@@ -42,7 +42,7 @@ public class Test {
 		System.out.println(r.toString());
 		System.out.println(p.equals(p1));
 		*/
-		Point p1=new Point (5,5);
+		/*Point p1=new Point (5,5);
 		Point p2= new Point (5,5);
 		Line l2=new Line(p1,p2);
 		Rectangle r1=new Rectangle(p2, 50,50,false);
@@ -52,8 +52,17 @@ public class Test {
 		System.out.println(15==15);
 		System.out.println(p1.equals(p2));
 		System.out.println(p1.equals(c1));
+		*/
+		Donut d =new Donut(new Point(3,5),8,3);
+		System.out.println(d.circumference());
+		System.out.println(d.area());
+		Circle c=new Circle(new Point (3,5),8);
+			System.out.println(c.circumference());
+		System.out.println(c.area());	
+		System.out.println(d.toString());
 		
-		
+		Point p= new Point(3,5);
+		System.out.println(d.equals(c));
 		
 	}
 
