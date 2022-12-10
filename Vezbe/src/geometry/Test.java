@@ -53,7 +53,7 @@ public class Test {
 		System.out.println(p1.equals(p2));
 		System.out.println(p1.equals(c1));
 		*/
-		Donut d =new Donut(new Point(3,5),8,3);
+		Donut d = new Donut(new Point (3,5),8,7);
 		System.out.println(d.circumference());
 		System.out.println(d.area());
 		Circle c=new Circle(new Point (3,5),8);
